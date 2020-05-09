@@ -639,8 +639,8 @@ uglyURLs = false
     #      的优先级高于此处
 
     ## Disqus
-    enableDisqus = false
-    disqusShortname = ""
+    enableDisqus = true
+    disqusShortname = "chrishine"
 
     ## Valine
     enableValine = false
