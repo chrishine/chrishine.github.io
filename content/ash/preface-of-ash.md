@@ -46,4 +46,4 @@ date: 2020-05-09T10:01:32+08:00
 
 这本小说，将来会扩写成数十万字，但现在我最喜欢的只有八个字——盛世浮华，但丁漂泊。
 
-最后，附上小说地址：[The Rescue Of Ash](
+最后，附上小说地址：[The Rescue Of Ash](https://shinedust.gitbook.io/the-rescue-of-ash/)
