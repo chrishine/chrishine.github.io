@@ -34,7 +34,7 @@ footnoteReturnLinkContents = "↩"
 enableGitInfo = false
 
 # 是否生成 robots.txt 文件
-enableRobotsTXT = false
+enableRobotsTXT = true
 
 # 每一分页的文章数（仅对「文章摘要」首页布局有效）
 paginate = 5
@@ -216,14 +216,14 @@ uglyURLs = false
         name = "我道"
         weight = 1
         pre = "internal"
-        post = "grav"
+        post = "th"
         identifier = "isay"
     [[menu.main]]
         url = "/ash/"
         name = "灰烬"
         weight = 2
         pre = "internal"
-        post = "ashgame"
+        post = "clock"
         identifier = "ash"
     [[menu.main]]
         url = "/tech/"
@@ -263,11 +263,11 @@ uglyURLs = false
         name = "Home"
         weight = 1
         pre = "internal"
-    [[menu.links]]
-        url = "/tags/"
-        name = "Tags"
-        weight = 2
-        pre = "internal"
+    # [[menu.links]]
+    #     url = "/tags/"
+    #     name = "Tags"
+    #     weight = 2
+    #     pre = "internal"
     # [[menu.links]]
     #     url = "/coldplay/"
     #     name = "Coldplay"
@@ -359,9 +359,10 @@ uglyURLs = false
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["夏之为色，犹然无若。", "若如星河，渺渺繁多。",
-                  "夏之为清，犹然无心。", "心如空明，声声而宁。",
-                  "夏之为子，犹然无思。", "思如琉璃，灿灿而熠。"]
+    homePoetry = ["<br /><br /><br />",
+                    "夏之为色，犹然无若。", "若如星河，渺渺繁多。<br /><br />",
+                    "夏之为清，犹然无心。", "心如空明，声声而宁。<br /><br />",
+                    "夏之为子，犹然无思。", "思如琉璃，灿灿而熠。"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
