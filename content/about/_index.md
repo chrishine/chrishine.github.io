@@ -3,7 +3,7 @@ title: "关于"
 date: 2020-05-08T17:09:53+08:00
 ---
 
-夏之色的博客，域名 https://chrishine.cn/, chris 与 shine 的合成词。本博客使用 [MemE主题](https://github.com/reuixiy/hugo-theme-meme)，源码在 [GitHub](https://github.com/chrishine/chrishine.github.io) 上，托管在 [Netlify](https://www.netlify.com/) 上。
+夏之色的博客，域名 https://chrishine.cn/, chrishine 是 chris 与 shine 的合成词；喜欢 [夏之王者](https://music.163.com/#/song?id=757864) 这首歌和日剧 [夏之雪](https://movie.douban.com/subject/1481065/) ，故而 ID 为夏之色。本博客使用 [MemE主题](https://github.com/reuixiy/hugo-theme-meme)，源码在 [GitHub](https://github.com/chrishine/chrishine.github.io) 上，托管在 [Netlify](https://www.netlify.com/) 上。
 
 目前文章分为三类：
 
@@ -14,3 +14,4 @@ date: 2020-05-08T17:09:53+08:00
 因工作需要，寻求一名美术工作者长期合作，如有兴趣，请发邮件。
 
 如果你有技术项目寻求外包，也可以邮件联系我。
+

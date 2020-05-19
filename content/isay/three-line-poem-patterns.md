@@ -16,11 +16,11 @@ date: 2020-05-09T10:06:11+08:00
 ## 相似之处
 
 这种表达方式其实是catch-throw表示方法：
-{% codeblock lang:java %}
+```java 
 	catch(Exception e){
     	throw new SomeException(Object.. args);
 	}     
-{% endcodeblock %} 
+```
 
 表示方法是为了表示出一个命题，一般的表达方式是A蕴含B。采用catch-throw，往往是原表达式的否命题(当然只有原命题与逆否命题才是同真假的)或否命题的子集，若要通过否命题推出原命题，原命题的A，B的条件则必须是**人可理解的**对立，非此即彼。比如男，对立的自然是女，而不是非男；黑，对立的自然是白，而不是非黑。这些都是大家比较容易接受的对立概念。没有大家都容易接受的对立概念来用catch-throw，效果往往不好。执着的男女对于爱情往往是爱与不爱(实际也大概如此)，因而catch-throw可以屡试不爽。但如果不是那么对立的物件，用catch-throw，则会让人误会或者不知所云，如：
 
@@ -41,10 +41,10 @@ date: 2020-05-09T10:06:11+08:00
 ## 有趣的翻译
 
 有catch-throw表示方法，自然也有if-true表示方法：
-{% codeblock lang:java %}
+```java
 	if(statement)
 	    true;   
-{% endcodeblock %} 
+```
 
 这种表达方式的核心在于省略```true```，最经典的例子当属翻译"I love you"：
 
@@ -53,10 +53,10 @@ date: 2020-05-09T10:06:11+08:00
 >  you，朋友翻译成我爱你。张爱玲说：文人怎么能讲这样的话?“原来你也在这里”就足够了。
 
 套过来就是：
-{% codeblock lang:java %}
+```java
 	if("今夜月色很好" || "原来你也在这里")
 	    "I love you";   
-{% endcodeblock %}
+```
 
 当然，这里的"I love you"也可以是其他语句，比如如何夸一个女孩漂亮，赞一个男孩的勇气，所谓的statement只是时机下适宜的话。金庸擅于夸一个女孩漂亮，如：
 
@@ -72,11 +72,11 @@ date: 2020-05-09T10:06:11+08:00
 
 程序语言能写出优美的情诗么？虽说程序语言的优势是表达逻辑，但是有着逻辑的浪漫一定是可以表达出来的。  
 曾经在人人看到复旦信管院的三行情诗：
-{% codeblock lang:c %}
+```java
     int i;
     for(i = 0; i < forever; i++);
     printf("I love you");
-{% endcodeblock %} 
+```
 第一眼看到的时候，就不自觉的想起了罗素的《To Edith》
 
 > Now, old and near my end,  
